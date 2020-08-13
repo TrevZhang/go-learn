@@ -3,10 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Print("ok")
 	sum, sub := dualReturn(5, 1)
-	fmt.Print("sum", sum)
-	fmt.Print("sub", sub)
+	fmt.Println("sum", sum)
+	fmt.Println("sub", sub)
 }
 
 func dualReturn(n1 int, n2 int) (int, int) {
